@@ -6,7 +6,7 @@ found duplicated import tools
 ## install
 
 ```sh
-go install github.com/mahiro72/dupimport@latest
+go install github.com/mahiro72/dupimport/cmd/dupimport@latest
 ```
 
 ## Useage
