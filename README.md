@@ -15,3 +15,9 @@ go install github.com/mahiro72/dupimport/cmd/dupimport@latest
 ```sh
 go vet -vettool=`which dupimport` pkgname
 ```
+
+#### Examples
+
+```sh
+go vet -vettool=`go env GOPATH`/bin/dupimport ./testdata/src/dupimport 
+```
